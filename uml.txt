@@ -1,4 +1,3 @@
-/*
 ------------------------
 |       ClassName       |   ← Class name (top section)
 ------------------------
@@ -16,4 +15,3 @@ Composition:        House ◆—— Room, room in contained in house, & not inde
 Inheritance:        Student ——▷ Person, student is a person
 Dependency:         Printer - - -▷ Document, printer & doc are independent, yet printer depends on Doc
 Realization:        CreditCardPayment - - -▷ Payment, creditCartPayment in implementation of Payment
-*/
