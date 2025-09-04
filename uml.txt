@@ -1,0 +1,19 @@
+/*
+------------------------
+|       ClassName       |   ← Class name (top section)
+------------------------
+| - attribute1          |   ← Attributes / Properties (middle section)
+| + attribute2          |   - represent, private field, positive respresent public fields
+------------------------
+| - method1()           |   ← Methods / Operations (bottom section)
+| + method2(param)      |
+------------------------
+
+
+Association:        Person —— Address, person uses address, both are independent
+Aggregation:        Library <>—— Book, book is contained in library but is independent
+Composition:        House ◆—— Room, room in contained in house, & not independent
+Inheritance:        Student ——▷ Person, student is a person
+Dependency:         Printer - - -▷ Document, printer & doc are independent, yet printer depends on Doc
+Realization:        CreditCardPayment - - -▷ Payment, creditCartPayment in implementation of Payment
+*/
