@@ -13,5 +13,5 @@ Association:        Person —— Address, person uses address, both are indepen
 Aggregation:        Library <>—— Book, book is contained in library but is independent
 Composition:        House ◆—— Room, room in contained in house, & not independent
 Inheritance:        Student ——▷ Person, student is a person
-Dependency:         Printer - - -▷ Document, printer & doc are independent, yet printer depends on Doc
-Realization:        CreditCardPayment - - -▷ Payment, creditCartPayment in implementation of Payment
+Dependency:         Printer - - > Document, printer & doc are independent, yet printer depends on Doc
+Realization:        CreditCardPayment - - ▷ Payment, creditCartPayment in implementation of Payment
